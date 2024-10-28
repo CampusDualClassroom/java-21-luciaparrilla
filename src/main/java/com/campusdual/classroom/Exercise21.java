@@ -60,15 +60,15 @@ public class Exercise21 {
     }
 
     public static void main(String[] args) {
-        Set<String> hs1 = createHashSet();
-        Set<String> ts1 = createTreeSet();
-        boolean hashSetAdded = addElementToSet(hs1, "ELEMENT AAA");
-        boolean treeSetAdded = addElementToSet(ts1, "ELEMENT AAA");
+        Set<String> elements = createHashSet();
+        Set<String> elementsAgain = createTreeSet();
+        boolean hashSetAdded = addElementToSet(elements, "ELEMENT AAA");
+        boolean treeSetAdded = addElementToSet(elementsAgain, "ELEMENT AAA");
 
         System.out.println("Elements in HashSet: ");
-        printSet(hs1);
+        printSet(elements);
         System.out.println("Elements in TreeSet:");
-        System.out.println(ts1);
+        System.out.println(elementsAgain);
 
     }
 
